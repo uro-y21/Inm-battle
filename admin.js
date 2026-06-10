@@ -3,7 +3,7 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 const supabase = createClient("YOUR_URL","YOUR_KEY");
 
 // 簡易ロック
-if(prompt("pass")!=="admin"){
+if(prompt("おまんちょす")!=="admin"){
   document.body.innerHTML="アクセス拒否";
 }
 
