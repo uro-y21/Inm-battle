@@ -1,0 +1,15 @@
+body { text-align:center; font-family:sans-serif; }
+
+.card {
+  display:inline-block;
+  padding:8px;
+  margin:5px;
+  border-radius:8px;
+  background:white;
+}
+
+.fire{border:2px solid red;}
+.water{border:2px solid blue;}
+.grass{border:2px solid green;}
+.light{border:2px solid gold;}
+.dark{border:2px solid black;}
