@@ -1,6 +1,6 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-const supabase = createClient("YOUR_URL","YOUR_KEY");
+const supabase = createClient("https://xnqpmdzwaufdfpfzixsv.supabase.co","sb_publishable_FNF96yB43BWnvJc6MpHMcQ_W1qeeNdD");
 
 let name="", coin=10;
 let chars=[], deck=[];
