@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>管理</title>
+</head>
+
+<body>
+
+<h2>キャラ追加</h2>
+
+<input id="name" placeholder="名前"><br>
+<input id="img" placeholder="画像URL"><br>
+
+<input id="atk" type="number" placeholder="攻撃"><br>
+<input id="def" type="number" placeholder="防御"><br>
+<input id="spd" type="number" placeholder="速度"><br>
+
+<select id="type">
+<option>火</option><option>水</option><option>草</option>
+<option>光</option><option>闇</option>
+</select>
+
+<select id="star">
+<option value="1">★1</option>
+<option value="2">★2</option>
+<option value="3">★3</option>
+<option value="4">★4</option>
+<option value="5">★5</option>
+</select>
+
+<button onclick="add()">登録</button>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>
