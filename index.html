@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ガチャPvP</title>
-    <link rel="stylesheet" href="style.css">   <!-- ← ここを修正 -->
+<meta charset="UTF-8">
+<title>ガチャPvP</title>
+link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>ガチャPvP</h1>
+<h1>ガチャPvP</h1>
 
-    <input id="name" placeholder="名前を入力">
-    <button onclick="start()">開始</button>
+<input id="name" placeholder="名前">
+<button onclick="start()">開始</button>
 
-    <div id="game" style="display:none;">
-        <p id="coin"></p>
-        <button onclick="gacha()">ガチャ</button>
-        <button onclick="battle()">PvPバトル</button>
+<div id="game" style="display:none;">
+  <p id="coin"></p>
+  <button onclick="gacha()">ガチャ</button>
+  <button onclick="battle()">PvP</button>
 
-        <h3>所持キャラ</h3>
-        <div id="chars"></div>
+  <h3>所持</h3>
+  <div id="chars"></div>
 
-        <h3>デッキ（3体）</h3>
-        <div id="deck"></div>
+  <h3>デッキ（3体）</h3>
+  <div id="deck"></div>
 
-        <div id="log"></div>
-    </div>
+  <div id="log"></div>
+</div>
 
-    <script type="module" src="main.js"></script>
+<script type="module" src="main.js"></script>
 </body>
 </html>
